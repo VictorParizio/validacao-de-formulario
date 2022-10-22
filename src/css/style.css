@@ -1,0 +1,67 @@
+main {
+    background: url(../image/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 15px;
+}
+
+.conteudo {
+    width: 390px;
+}
+
+.conteudo .titulo {
+    font-weight: 900;
+    font-size: 3.0rem;
+    margin-bottom: 11px;
+}
+
+.conteudo .texto {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.formulario {
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 340px;
+    height: 378px;
+    border-radius: 10px;
+}
+
+.formulario .campo {
+    width: 300px;
+    height: 35px;
+    border: solid 1px #000;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 8px 10px;
+    color: #A8A8A8;
+}
+
+.formulario textarea.campo{
+    resize: none;
+    height: 90px;
+}
+
+.formulario input:last-child {
+    background-color: #3CCC87;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.formulario p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 16px;
+}

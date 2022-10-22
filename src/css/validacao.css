@@ -1,0 +1,19 @@
+.formulario span {
+    font-size: 0.8rem;
+    color: #F52E2E;
+    display: block;
+    margin-bottom: 8px;
+    opacity: 0;
+}
+
+.formulario span.obrigatorio {
+    opacity: 1;
+}
+
+.formulario .invalido {
+    border: solid 1px #F52E2E;
+}
+
+.formulario .valido {
+    border: solid 1px #00C22B;
+}
