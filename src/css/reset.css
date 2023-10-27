@@ -1,12 +1,13 @@
-html{
-    font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
-    font-size: 1.5rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
